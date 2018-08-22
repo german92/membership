@@ -36,6 +36,13 @@ gem 'jbuilder', '~> 2.5'
 # Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/…
 gem 'devise'
 
+# Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
+gem 'bootstrap', '~> 4.1.3'
+
+# Sprockets Rails integration
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
