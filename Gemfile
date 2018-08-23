@@ -44,6 +44,7 @@ gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 # Needed for bootstrap
 gem 'jquery-rails'
+gem 'mini_racer'
 
 
 group :development, :test do
